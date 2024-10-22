@@ -78,3 +78,43 @@
     display: flex;
     flex-wrap: wrap;
 }
+
+@media screen and (max-width: 576px){
+    .main-container {
+        display: none;
+    }
+    .app-container{
+        width: 100%;
+    }
+    .container{
+        width: 60%;
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+    .letter{
+        height: 4vh;
+        width: 2vw;
+        border-radius: 100px;
+        margin-right: 5px;
+    }
+    .name{
+        font-size: 15px;
+        margin-top: 9px;
+    }
+    .account-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .balance{
+        color: #585076;
+        font-size: 15px;
+        padding-top: 4px;
+    }
+    .number{
+        color: white;
+        font-size: 7px;
+    }
+}
