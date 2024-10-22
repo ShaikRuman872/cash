@@ -1,0 +1,80 @@
+.main-container{
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    font-family: "Roboto";
+}
+
+.app-container{
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    width: 60%;
+
+}
+.container{
+    background-color: #150b3e;
+    border-radius: 20px;
+    width: 60%;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.header-section{
+    display: flex;
+    flex-direction: row;
+}
+.letter{
+    background-color: #c7d2fe;
+    height: 8vh;
+    width: 4vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border-radius: 200px;
+    color: #7c3aed;
+    margin-right: 20px;
+}
+.name{
+    color: #d4d2db;
+    font-size: 25px;
+    margin-top: 30px;
+}
+.account-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.balance{
+    color: #585076;
+    font-size: 25px;
+    padding-top: 10px;
+}
+.number{
+    color: white;
+    font-size: 33px;
+}
+.rupee{
+    color: #585076;
+    font-size: 19px;
+}
+.withdraw-container{
+    display: flex;
+    flex-direction: column;
+}
+.withdraw{
+    color: #c4c4c4;
+    font-size: 29px;
+}
+.sum{
+    color:  #382f5a;
+    font-size: 21px;
+}
+.items{
+    display: flex;
+    flex-wrap: wrap;
+}

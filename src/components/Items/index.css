@@ -1,0 +1,15 @@
+.button{
+    background-color: #585076;
+    border:  #c4c4c4 1px solid;
+    color:  #c4c4c4;
+    height: 8vh;
+    width: 15vw;
+    font-size: 23px;
+    margin: 5px;
+    border-radius: 10px;
+}
+.buttons-container{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
