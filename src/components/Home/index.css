@@ -1,20 +1,19 @@
-.main-container{
+.main-container {
     background-color: black;
     height: 100vh;
     display: flex;
     justify-content: center;
-    font-family: "Roboto";
-}
-
-.app-container{
+    font-family: 'Roboto';
+  }
+  
+  .app-container {
     background-color: white;
     height: 100vh;
     display: flex;
     justify-content: center;
     width: 60%;
-
-}
-.container{
+  }
+  .container {
     background-color: #150b3e;
     border-radius: 20px;
     width: 60%;
@@ -22,15 +21,15 @@
     display: flex;
     flex-direction: column;
     padding: 20px;
-}
-.header-section{
+  }
+  .header-section {
     display: flex;
     flex-direction: row;
-}
-.letter{
+  }
+  .letter {
     background-color: #c7d2fe;
-    height: 8vh;
-    width: 4vw;
+    height: 5vh;
+    width: 7vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -38,85 +37,98 @@
     border-radius: 200px;
     color: #7c3aed;
     margin-right: 20px;
-}
-.name{
+    font-size: 20px;
+  }
+  .name {
     color: #d4d2db;
     font-size: 25px;
     margin-top: 30px;
-}
-.account-container{
+  }
+  .account-container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-}
-.balance{
+  }
+  .balance {
     color: #585076;
     font-size: 25px;
     padding-top: 10px;
-}
-.number{
+  }
+  .number {
     color: white;
     font-size: 33px;
-}
-.rupee{
+  }
+  .rupee {
     color: #585076;
     font-size: 19px;
-}
-.withdraw-container{
+  }
+  .withdraw-container {
     display: flex;
     flex-direction: column;
-}
-.withdraw{
+  }
+  .withdraw {
     color: #c4c4c4;
     font-size: 29px;
-}
-.sum{
-    color:  #382f5a;
+  }
+  .sum {
+    color: #382f5a;
     font-size: 21px;
-}
-.items{
+  }
+  .items {
     display: flex;
     flex-wrap: wrap;
-}
-
-@media screen and (max-width: 576px){
+  }
+  
+  @media screen and (max-width: 576px) {
     .main-container {
-        background-color: black;
-        height: 100vh;
-        font-family: "Roboto";
+      background-color: black;
+      height: 100vh;
+      font-family: 'Roboto';
     }
-    .app-container{
-        width: 100%;
+    .app-container {
+      width: 100%;
     }
-    .container{
-        width: 60%;
-        margin: 10px;
-        display: flex;
-        flex-direction: column;
-        padding: 10px;
+    .container {
+      width: 80%;
+      margin: 10px;
+      display: flex;
+      flex-direction: column;
+      padding: 20px;
+      height: 80%;
     }
-    .letter{
-        height: 4vh;
-        width: 2vw;
-        border-radius: 100px;
-        margin-right: 5px;
+    .letter {
+      height: 6vh;
+      width: 9vw;
+      border-radius: 100px;
+      margin-right: 10px;
+      padding: 3px;
     }
-    .name{
-        font-size: 15px;
-        margin-top: 9px;
+    .name {
+      font-size: 18px;
+      padding-top: 10px;
     }
-    .account-container{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+    .account-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
     }
-    .balance{
-        color: #585076;
-        font-size: 15px;
-        padding-top: 4px;
+    .balance {
+      color: #585076;
+      font-size: 15px;
+      padding-top: 4px;
     }
-    .number{
-        color: white;
-        font-size: 7px;
+    .number {
+      color: white;
+      font-size: 15px;
     }
-}
+    .rupee {
+      font-size: 7px;
+    }
+    .withdraw {
+      font-size: 20px;
+    }
+    .sum {
+      font-size: 17px;
+    }
+  }
+  
